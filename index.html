@@ -1,12 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook CLON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        .header {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #fff;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .main {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+        }
+        .sidebar, .main {
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #1877f2;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>mi primer proyecto</h1>
-    <h2>como quiero que se vea</h2>
+
+    <header class="header">
+        <h1>Facebook</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Panel de Usuario</h2>
+            <p><strong>Nombre:</strong> Usuario</p>
+            <p><strong>Email:</strong> usuario@example.com</p>
+            <p><a href="#">Editar perfil</a></p>
+            <p><a href="#">Cerrar sesión</a></p>
+        </aside>
+        
+        <main class="main">
+            <h2>Noticias</h2>
+            <div class="post">
+                <h3>foto origen desconocido</h3>
+                <p>¡Publicacion ciudad futurista, año 2048. ciudad llamada la ciudad de la esperanza</p>
+            </div>
+            <img src=".\imagenes\futuro1.jpg" alt="Imagen futuro 1">
+            <div class="post">
+                <h3>Nortoeste Mexicano</h3>
+                <p>un cosecha hermosa y orgullo regional, empresas mexinas tiene por 8 años consecutivos exportando tomates a japon y otros paises</p>
+                <img src=".\imagenes\tomatesE.JPG" alt="Imagen de prueba">
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 TempoHI. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
