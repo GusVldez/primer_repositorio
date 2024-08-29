@@ -1,4 +1,4 @@
-# primer respositorio pagina clon facebook
+# primer repositorio pagina clon facebook
 
 practica de como crear un proyecto, en este caso un pagina simple de facebook
 
