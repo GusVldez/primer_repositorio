@@ -1,6 +1,6 @@
 # primer respositorio pagina clon facebook
 
-Descripción breve sobre lo que hace el proyecto y su propósito.
+practica de como crear un proyecto, en este caso un pagina simple de facebook
 
 ## Instalación
 
@@ -8,7 +8,7 @@ Descripción breve sobre lo que hace el proyecto y su propósito.
 
     ```
 
-    git clone https://github.com/usuario/nombre-del-proyecto.git
+    git clone https://gusvldez.github.io/primer_repositorio/
 
     ```
 
@@ -24,7 +24,7 @@ Descripción breve sobre lo que hace el proyecto y su propósito.
 
     ```
 
-    comando para ejecutar
+    SOLO DELE CLICK AL LINK
 
     ```
 
