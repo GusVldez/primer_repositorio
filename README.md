@@ -16,7 +16,7 @@ Descripción breve sobre lo que hace el proyecto y su propósito.
 
     ```
 
-    cd nombre-del-proyecto
+    cd es un practica pagina de facebook, 
 
     ```
 
